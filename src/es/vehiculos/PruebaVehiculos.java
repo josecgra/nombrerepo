@@ -31,10 +31,14 @@ public class PruebaVehiculos {
 	    int km;
 	    Scanner sc = new Scanner(System.in);
 	    
+	    Patinete patinete = new Patinete(4);
+	    
 	    Bicicleta bhSpeedrom = new Bicicleta(9);
 	    Coche saab93 = new Coche(1900);
 	    Coche mustang = new Coche(5000);
 	    Vehiculo v = new Vehiculo();
+	    
+	    System.out.println(patinete.derrapa());
 	    
 	    System.out.println(v.toString());
 	    
