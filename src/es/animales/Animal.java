@@ -1,6 +1,6 @@
 package es.animales;
 
-public class Animal {
+public class Animal extends Object {
 	
 	public String nombre;
 	private double peso;

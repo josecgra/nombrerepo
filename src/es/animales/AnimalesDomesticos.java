@@ -7,7 +7,7 @@ public class AnimalesDomesticos {
 	public static void main(String[] args) {
 		
 		ArrayList<Animal> animales = new ArrayList<Animal>();
-		
+		ArrayList<Animal> animales1 = new ArrayList<Animal>();
 		Animal a1 = new Animal("Pepe", 4.5, 1);
 		Perro p1 = new Perro("Luna", 5.5, 5);		
 		Animal p2 = new Perro("Guapo",3.3,5);

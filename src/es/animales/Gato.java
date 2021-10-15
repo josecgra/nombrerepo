@@ -8,7 +8,7 @@ public class Gato extends Animal {
 	}
 
 	public String maullar() {
-		return "miauuuuu!!";
+		return "miauuuuuuuuuuu!!";
 	}
 	
 	
