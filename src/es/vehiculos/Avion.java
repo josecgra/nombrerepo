@@ -1,17 +1,30 @@
 package es.vehiculos;
 
 public class Avion extends Vehiculo {
+	
+	boolean despegar = false;
+	boolean tocarSuelo = false;
+	boolean aterrizar = false;
+	int velocidad = 100;
+	
+	
 
 	public String volar() {
 		return "volando!!";
 	}
 	
-	public String despegar() {
-		return "Hemos despegado!!";
+
+	public boolean despegar() {
+		if(velocidad==100 && tocarSuelo)
+		despegar=true;
+		return despegar;	
 	}
 	
-	public String aterrizar() {
-		return "Hemos aterrizado!! Bienvenidos";
+	public boolean aterrizar() {
+		if(velocidad<100 && tocarSuelo==true)
+		aterrizar = false;
+		return aterrizar;	
+
 	}
 	
 }
