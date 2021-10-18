@@ -13,6 +13,9 @@ public class AnimalesDomesticos {
 		Perro p1 = new Perro("Luna", 5.5, 5);		
 		Animal p2 = new Perro("Guapo",3.3,5);
 		
+		Liebre l1 = new Liebre("Luna2",4.4,6);
+		
+		System.out.println(l1.correr());
 		
 		try {
 			p1.cociente(8, 0);
