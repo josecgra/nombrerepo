@@ -32,6 +32,9 @@ public class PruebaVehiculos {
 	    Scanner sc = new Scanner(System.in);
 	    
 	    Patinete patinete = new Patinete(4);
+	    Avion avion = new Avion();
+	    
+	    System.out.println(avion.volar());
 	    
 	    Bicicleta bhSpeedrom = new Bicicleta(9);
 	    Coche saab93 = new Coche(1900);
