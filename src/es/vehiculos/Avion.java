@@ -6,4 +6,12 @@ public class Avion extends Vehiculo {
 		return "volando!!";
 	}
 	
+	public String despegar() {
+		return "Hemos despegado!!";
+	}
+	
+	public String aterrizar() {
+		return "Hemos aterrizado!! Bienvenidos";
+	}
+	
 }
