@@ -3,9 +3,11 @@ package es.vehiculos;
 public class Avion extends Vehiculo {
 	
 	boolean despegar = false;
+	boolean nodespegue = false;
 	boolean tocarSuelo = false;
 	boolean aterrizar = false;
 	int velocidad = 100;
+	int retraso = 7;
 	
 	
 
@@ -15,9 +17,9 @@ public class Avion extends Vehiculo {
 	
 
 	public boolean despegar() {
-		if(velocidad==100 && tocarSuelo)
+		if(velocidad==100 && tocarSuelo && retraso == 7)
 		despegar=true;
-		return despegar;	
+		return true;	
 	}
 	
 	public boolean aterrizar() {
