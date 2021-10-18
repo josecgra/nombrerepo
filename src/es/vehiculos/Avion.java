@@ -7,9 +7,7 @@ public class Avion extends Vehiculo {
 	boolean tocarSuelo = false;
 	boolean aterrizar = false;
 	int velocidad = 100;
-	int retraso = 7;
-	
-	
+	int resistencia = 10;
 
 	public String volar() {
 		return "volando!!";
@@ -17,9 +15,9 @@ public class Avion extends Vehiculo {
 	
 
 	public boolean despegar() {
-		if(velocidad==100 && tocarSuelo && retraso == 7)
+		if(velocidad==100 && tocarSuelo && resistencia == 8)
 		despegar=true;
-		return true;	
+		return false;	
 	}
 	
 	public boolean aterrizar() {
