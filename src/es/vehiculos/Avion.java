@@ -6,6 +6,7 @@ public class Avion extends Vehiculo {
 	boolean tocarSuelo = false;
 	boolean aterrizar = false;
 	int velocidad = 100;
+	int resistencia = 10;
 	
 	
 
@@ -15,9 +16,9 @@ public class Avion extends Vehiculo {
 	
 
 	public boolean despegar() {
-		if(velocidad==100 && tocarSuelo)
+		if(velocidad==100 && tocarSuelo && resistencia == 8)
 		despegar=true;
-		return despegar;	
+		return false;	
 	}
 	
 	public boolean aterrizar() {
